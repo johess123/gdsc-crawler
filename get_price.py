@@ -2,7 +2,7 @@ import requests
 import datetime
 import time
 
-stock = ["1101","2330"]
+stock = ["1101","2330","2388"]
 date = datetime.datetime.today().strftime("%Y%m%d")
 for i in range(len(stock)):
     # 爬股價
