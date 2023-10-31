@@ -4,6 +4,7 @@ import time
 
 stock = ["1101","2330","2388"]
 date = datetime.datetime.today().strftime("%Y%m%d")
+print("現在時間",datetime.datetime.now())
 for i in range(len(stock)):
     # 爬股價
     url = "https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY_AVG?date="+date+"&stockNo="+stock[i]+"&response=json&_=1697638279385"
